@@ -1,0 +1,68 @@
+
+h1, p {
+    text-align: center;
+} 
+
+section a {
+    color: black;
+}
+
+
+#contenedor {
+    display: grid;
+    grid-gap: 2px ;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas: 
+    "produc1 produc2 produc3"
+    "produc4 produc5 produc6"
+    ;
+    text-align: center;
+    
+}
+
+section.producto1 {
+    grid-area: produc1;
+    
+}
+section.producto2 {
+    grid-area: produc2;
+}
+section.producto3 {
+    grid-area: produc3;
+}
+section.producto4 {
+    grid-area: produc4;
+}
+section.producto5 {
+    grid-area: produc5;
+}
+section.producto6 {
+    grid-area: produc6;
+} 
+
+
+
+footer.flexPadre {
+    background-color: #6c757d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+    
+}
+ul li a {
+    color: #ffffff80;
+    
+}
+div ul li {
+    text-align: left;
+}
+
+div h3 {
+    color: #ffffff80;
+}
